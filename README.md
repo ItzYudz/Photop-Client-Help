@@ -14,7 +14,7 @@ const { Client } = require('photop-client')
 const client = new Client({ username: 'bot username', password: process.env['Pass'] })
 ```
 ## Chat on a Post
-To make your bot chat on a post, you need to make it react to the letters in a post. To make that happen, you need to use onPost and post.chat.
+To make your bot chat on a post, you need to use onPost and post.chat.
 ```js
 client.onPost = (post) => {
   if (post.text == "test") {
@@ -23,3 +23,17 @@ client.onPost = (post) => {
 }
 ```
 This code responds `I'm working` to a post that has `test`. You can change the values on the code above that are inside quotation marks.
+## Reply to a Chat
+To make your bot reply on a chat, you need to use onChat, post.chat, and chat.reply. This also requires you to connect the code with your onPost code, so it will be a little longer.
+```js
+client.onPost = (post) => {
+  if (post.text == "test") {
+    post.chat("I'm working")
+  }
+  post.onChat = (chat) => {
+    if (chat.text == "test2") {
+      chat.reply("Hi, I'm still working")
+      }
+   }
+}
+```
