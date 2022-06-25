@@ -13,3 +13,13 @@ If you are on VSCode, this is fine, but if you are on a public coding site like 
 const { Client } = require('photop-client')
 const client = new Client({ username: 'bot username', password: process.env['Pass'] })
 ```
+## Chat on a Post
+To make your bot chat on a post, you need to make it react to the letters in a post. To make that happen, you need to use onPost and post.chat.
+```js
+client.onPost = (post) => {
+  if (post.text == "test") {
+    post.chat("I'm working")
+  }
+}
+```
+This code responds `I'm working` to a post that has `test`. You can change the values on the code above that are inside quotation marks.
