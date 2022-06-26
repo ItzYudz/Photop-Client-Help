@@ -59,4 +59,12 @@ To use it, you need to have a const and multiple choices inside.
 ```js
 const Choices = ["Choice 1", "Choice 2", "Choice 3"]
 ```
+After that, add it to the code.
+```js
+client.onPost = (post) => {
+  if (post.text == "test") {
+    post.chat(`Here's your choice: ${quotes[getRandomInt(quotes.length)]}`)
+  } //note that if you're using a ${}, you must use ` instead of ' or " or it will not work
+}
+```
 I hope that was enough, and I'll be updating this soon. You can take a look at some code in https://github.com/ItzYudz/Photop-Client-Help/tree/main/examples
