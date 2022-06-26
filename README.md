@@ -1,7 +1,7 @@
 # Photop Client Help
-Photop Client is a npm package to create a photop bot (https://app.photop.live), but the original github doesn't have enough instructions. So, I created a github with a more full detailed one with all the knowledge I have.
-## HEADS UP
-#### When you are making a bot for photop, make sure you add a prefix, such as bot!command, or else, the bot will get banned forever. And yes, I am experienced with it.
+Photop Client is a npm package to create a photop bot (https://app.photop.live), but the original github doesn't have enough instructions. So, I created a github with a more full detailed one with all the knowledge I have. You can check out the original github at https://github.com/spammy2/photop-client.
+## Heads up
+When you are making a bot for photop, make sure you add a prefix, such as bot!command, or else, the bot will get banned forever. And yes, I am experienced with it.
 ## Recommended Coding Sites/Apps
 I recommend either VSCode (Visual Studio Code), or Replit. VSCode is a  application, while Replit is a website.
 ## Get started
