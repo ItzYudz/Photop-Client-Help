@@ -46,4 +46,4 @@ client.onPost = (post) => {
    }
 }
 ```
-I hope that was enough, and I'll be updating this soon.
+I hope that was enough, and I'll be updating this soon. You can take a look at some code in https://github.com/@ItzYudz/Photop-Client-Help/blob/examples/.
