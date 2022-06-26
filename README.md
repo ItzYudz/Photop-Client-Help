@@ -79,4 +79,7 @@ console.log("I'm still running")
 }, 120000)
 ```
 In this script, every 2 minutes (120000 miliseconds), it will log "I'm still running" in the console.
+```diff
+Make sure that your bot is following the Photop rules and TOS.
+```
 I hope that was enough, and I'll be updating this soon. You can take a look at some code in https://github.com/ItzYudz/Photop-Client-Help/tree/main/examples
