@@ -37,3 +37,13 @@ client.onPost = (post) => {
    }
 }
 ```
+## Make the bot post
+This makes it so the bot posts when you chat/post something and uses client.post.
+```js
+client.onPost = (post) => {
+  if (post.text == "test3") {
+    client.post("I'm functioning")
+   }
+}
+```
+I hope that was enough, and I'll be updating this soon.
