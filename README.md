@@ -67,4 +67,13 @@ client.onPost = (post) => {
   } //note that if you're using a ${}, you must use ` instead of ' or " or it will not work
 }
 ```
+This will chat either Choice 1, Choice 2, or Choice 3 each with a equal chance.
+## SetInterval
+This sets a timeout (cooldown) with every action, sends something every hour, etc.
+```js
+setInterval(function() {
+console.log("I'm still running")
+}, 120000)
+```
+In this script, every 2 minutes (120000 miliseconds), it will log "I'm still running" in the console.
 I hope that was enough, and I'll be updating this soon. You can take a look at some code in https://github.com/ItzYudz/Photop-Client-Help/tree/main/examples
