@@ -46,4 +46,17 @@ client.onPost = (post) => {
    }
 }
 ```
+## Simple Functions
+Functions are things that make things happen, but only write it once and edit it anytime on a line.
+## GetRandomInt
+Just like the name says, it gets a random integer.
+```js
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+```
+To use it, you need to have a const and multiple choices inside.
+```js
+const Choices = ["Choice 1", "Choice 2", "Choice 3"]
+```
 I hope that was enough, and I'll be updating this soon. You can take a look at some code in https://github.com/ItzYudz/Photop-Client-Help/tree/main/examples
