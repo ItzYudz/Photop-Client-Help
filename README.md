@@ -88,5 +88,5 @@ client.onPost = (post) => {
     }
 }
 ```
-To do it for a chat, just replace ${post.author.username} with ${chat.author.username}.
+To do it for a chat, just replace `${post.author.username}` with `${chat.author.username}`.
 I hope that was enough, and I'll be updating this soon. You can take a look at some code in https://github.com/ItzYudz/Photop-Client-Help/tree/main/examples
