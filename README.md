@@ -79,9 +79,6 @@ console.log("I'm still running")
 }, 120000)
 ```
 In this script, every 2 minutes (120000 miliseconds), it will log "I'm still running" in the console.
-```diff
-- Make sure that your bot is following the Photop rules and TOS.
-```
 ## Show the username for the person who ran the command
 To do this, you need to use ${} again.
 ```js
